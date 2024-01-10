@@ -69,7 +69,9 @@ Recuerda que en cada escenario de prueba Gherkin debes proporcionar pasos claros
 
 **EJERCICIO 1 Escribe un programa en Java que verifique si una palabra es un palíndromo. Un palíndromo es una palabra que se lee igual de izquierda a derecha que de derecha a izquierda.**
 
+
 **EJERCICIO 2 Crea una clase en Java que represente una cuenta bancaria. La clase debe tener métodos para depositar, retirar y obtener el saldo actual. También, implementa un programa que utilice esta clase para realizar algunas operaciones bancarias básicas.**
+
 
 **EJERCICIO 3 Genera los referentes identificadores para un mismo elemento en selenium y appium**
 
@@ -77,15 +79,24 @@ Recuerda que en cada escenario de prueba Gherkin debes proporcionar pasos claros
 ### PARTE 3 Prreguntas abiertas #
 
 **Pregunta 1: ¡Cuál es la diferencia entre pruebas de carga y estrés?**
+
 **Pregunta 2: ¿Qué probarías si tuvieras que probar una nueva versión que solventa un bug crítico en producción?**
+
 **Pregunta 3: ¿Cómo reportarías los bugs encontrados hacía los desarrolladores?**
+
 **Pregunta 4: ¿Cómo le darías seguimiento a bugs reportados a Desarrollo?**
+
 **Pregunta 5: ¿Cuál serían los niveles de severidad que manejarías para reportar bugs y con base en qué?**
+
 **Pregunta 6: ¿Puedes explicar qué es la metodología de pruebas Ágil y cuáles son sus principios fundamentales?**
+
 **Pregunta 7: ¿Cuál es la diferencia entre pruebas funcionales y pruebas no funcionales? Proporciona ejemplos de cada una.**
+
 **Pregunta 8: ¿Qué es la automatización de pruebas y cuáles serían algunos casos donde sería más beneficioso automatizar pruebas en lugar de realizar pruebas manuales?
 Herramientas y Técnicas de Pruebas:**
+
 **Pregunta 9: ¿Puedes mencionar algunas herramientas populares de automatización de pruebas y describir en qué escenarios podrían ser más útiles?**
+
 **Pregunta 10: ¿Qué casos no automatizarías?**
 
 En Neology somos fieles creyentes de la transparencia, honestidad, crecimiento y aprendizaje  por lo que agradecemos se pueda llevar a cabo la prueba sin ayuda de terceros o herramientas adicionales. 
