@@ -29,6 +29,9 @@ Principalmente los siguientes aspectos:
 ## EJERCICIOS
 
 ###PARTE 1 - Creación de casos de uso #
+
+Recuerda que en cada escenario de prueba Gherkin debes proporcionar pasos claros, condiciones y resultados esperados. Este examen evalúa tu capacidad para diseñar casos de uso exhaustivos para la aplicación de movilidad, considerando la integración entre el backend, back office y las aplicaciones móviles, agrega los casos de prueba que consideres importante por validar las funcionalidades primordiales.
+
 **Examen de Tester - Casos de Uso con Gherkin para Compañía de Movilidad**
 
 **Instrucciones:**
@@ -60,9 +63,6 @@ Escribe un escenario de prueba Gherkin para evaluar el rendimiento del sistema a
 
 Escribe un escenario de prueba Gherkin para verificar la capacidad de la aplicación móvil en Android para actualizar el estado de una transacción. Asegúrate de incluir pasos, condiciones y resultados esperados.
 
----
-
-Recuerda que en cada escenario de prueba Gherkin debes proporcionar pasos claros, condiciones y resultados esperados. Este examen evalúa tu capacidad para diseñar casos de uso exhaustivos para la aplicación de movilidad, considerando la integración entre el backend, back office y las aplicaciones móviles, agrega los casos de prueba que consideres importante por validar las funcionalidades primordiales.
 ----
 
 ### PARTE 2 Ejercicios técnicos #
