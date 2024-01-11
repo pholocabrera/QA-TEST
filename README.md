@@ -79,25 +79,38 @@ Escribe un escenario de prueba Gherkin para verificar la capacidad de la aplicac
 ### PARTE 3 Prreguntas abiertas #
 
 **Pregunta 1: ¡Cuál es la diferencia entre pruebas de carga y estrés?**
+Las pruebas de carga son aquellas que nos permite medir la capacidad de respuesta tipo PCR donde se valida el volumen de procesos de un tarea en espeficico, como consultas sumultaneas, accesos o registros.
+Las pruebas de estres son aquellas que validan la respuesta ante ataques o errores de captura por parte del usuario que tan vulnerable es el sistema y como mitigar ese tipo de accesos
 
 **Pregunta 2: ¿Qué probarías si tuvieras que probar una nueva versión que solventa un bug crítico en producción?**
+Se prueba un test set de regresión para asegurar la no afectación de la nueva versión sobre la existente, se debe validar la corrección del defectos en ambientes previas versionadas, para no afectar a los usuarios finales, se debe probar cada escenario que replica el defecto critico y posterior liberar el fixed y volver a probar en PRO, asegurando que se ha corregido el issue, en caso de que se replique se realiza un rollback para evitar la afectación de otros componentes
 
 **Pregunta 3: ¿Cómo reportarías los bugs encontrados hacía los desarrolladores?**
+Se levantan los defectos en las herramientas de administración de preubas y se asignan a la persona responsable de la atención y seguimiento para realizar el fixed
 
 **Pregunta 4: ¿Cómo le darías seguimiento a bugs reportados a Desarrollo?**
+Existen herramientas de seguimiento de los defectos, donde por medio de un ticket se reportan los escenarios que han fallado junto con los pasos para replicar el defecto, se agrega una descripción junto con la evidencia que nos permite ver que esta fallando o que se esta incumpliendo dentro de la entrega de SW que se esta validando, una de las herramientas agiles son jira, o ALM defects
 
 **Pregunta 5: ¿Cuál serían los niveles de severidad que manejarías para reportar bugs y con base en qué?**
+Alta, media y baja
 
 **Pregunta 6: ¿Puedes explicar qué es la metodología de pruebas Ágil y cuáles son sus principios fundamentales?**
+Agil es un marco de trabajo que permite entrgas pequeñas que son MVP, de las cuales se van integrando de manera paulatina, hasta completar el features por spring, se llevan acabo ceremonias de agilidad como los diarios de 15 minutos, los PI plan, las cereminias de planeacions de sprint y retrospectivas y demos al final de cada sprint y PI
 
 **Pregunta 7: ¿Cuál es la diferencia entre pruebas funcionales y pruebas no funcionales? Proporciona ejemplos de cada una.**
+Las pruebas funcionales se basan en validar y verificar las features de un requerimiento o historias de usuario, que nos permite confirmar que no existen defectos y que se estan cubriendo todos los criterios establecidos por el usuario
+Las pruebas no funcionales son todas aquellas que validan la segurdad, la complejidas, la capacidad de procesos de carga y sobre todo la fiabilidad del sistema
 
 **Pregunta 8: ¿Qué es la automatización de pruebas y cuáles serían algunos casos donde sería más beneficioso automatizar pruebas en lugar de realizar pruebas manuales?
 Herramientas y Técnicas de Pruebas:**
+Las pruebas que se deben automatizar son todas aquellas que ya fueron identificadas como parte de una test set de regresión de pruebas para validar la no afectación de nuevas implementaciones o integraciones en el sistema
+Las pruebas manuales nos permite validad y verificar los nuevos criterios de aceptación de nuevas features
+Las herramientas para automatizar depende de lo que se requiere validar, si es una micro service se recomienda utilizar postman, soap o cucumber con lenguaje Gherkin, de las tecnicas de prueba existen las de back end tipo caja negra y blanca (se tiene acceso al codigo), pruebas de estres pruebas de confiabilidad y pruebas de seguridad
 
 **Pregunta 9: ¿Puedes mencionar algunas herramientas populares de automatización de pruebas y describir en qué escenarios podrían ser más útiles?**
 
 **Pregunta 10: ¿Qué casos no automatizarías?**
+Features de nueva integración
 
 En Neology somos fieles creyentes de la transparencia, honestidad, crecimiento y aprendizaje  por lo que agradecemos se pueda llevar a cabo la prueba sin ayuda de terceros o herramientas adicionales. 
 
